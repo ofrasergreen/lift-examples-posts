@@ -68,5 +68,8 @@ class Boot {
 
     // Make a transaction span the whole HTTP request
     S.addAround(DB.buildLoanWrapper)
+
+    // Use HTML5
+    LiftRules.htmlProperties.default.set((r: Req) => new Html5Properties(r.userAgent))
   }
 }
