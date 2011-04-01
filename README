@@ -1,0 +1,5 @@
+There are three examples under /static:
+
+* designer-friendly - is a simple example designer-friendly template using lift:content_id
+* embed-template - just demonstrates designer-friendly can be successfully embedded
+* run-template - this is where it starts to go wrong. Click on the link and it's supposed to replace the text beside it with the designer-friendly template content. Unfortunately it fails due to the designer-friendly stuff.
